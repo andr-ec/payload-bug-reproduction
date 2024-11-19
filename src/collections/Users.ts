@@ -7,7 +7,11 @@ export const Users: CollectionConfig = {
   },
   auth: true,
   fields: [
-    // Email added by default
-    // Add more fields as needed
+    {
+      name: 'medias',
+      type: 'join',
+      collection: 'media',
+      on: 'user',
+    },
   ],
 }

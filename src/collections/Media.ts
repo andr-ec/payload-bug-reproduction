@@ -11,6 +11,11 @@ export const Media: CollectionConfig = {
       type: 'text',
       required: true,
     },
+    {
+      name: 'user',
+      type: 'relationship',
+      relationTo: 'users',
+    },
   ],
   upload: true,
 }

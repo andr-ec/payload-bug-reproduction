@@ -68,6 +68,7 @@
     },
     "postgresql@latest": {
       "last_modified": "2024-11-17T04:10:55Z",
+      "plugin_version": "0.0.2",
       "resolved": "github:NixOS/nixpkgs/0a14706530dcb90acecb81ce0da219d88baaae75#postgresql",
       "source": "devbox-search",
       "version": "16.4",
